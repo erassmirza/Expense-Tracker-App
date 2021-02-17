@@ -1,16 +1,12 @@
 import React, { createContext, useReducer } from 'react';
 import TransactionsReducer from './transactionReducer';
 
-let initialtTransactions = [
-    { amount: 100, desc: "Cash" },
-    { amount: -20, desc: "Book" },
-    { amount: -200, desc: "Camera" }
-]
+let initialTransactions = []
 
-export const TransactionsContext = createContext(initialtTransactions);
+export const TransactionsContext = createContext(initialTransactions);
 
 export const TransactionProvider = ({children}) => {
-    let [state, dispatch] = useReducer(TransactionsReducer, initialtTransactions);
+    let [state, dispatch] = useReducer(TransactionsReducer, initialTransactions);
 
     function addTransaction(transObj) {
         dispatch(

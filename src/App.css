@@ -40,13 +40,13 @@
 }
 
 .transaction-form input{
-  width: 95%;
-  margin: 10px 0px;
-  padding: 10px;
-  border-radius: 10px;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px 0;
+  border-radius: 7px;
   border-style: none;
   box-shadow: 0 5px 10px grey;
-
+  text-indent: 0.1cm;
 }
 
 .input-button{
