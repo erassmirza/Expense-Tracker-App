@@ -1,9 +1,13 @@
+body{
+  background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+}
 .App {
   /* text-align: center; */
   max-width: 400px;
   min-height: 400px;
   margin: 0 auto;
-  background-color: #efefef;
+  /* background-color: #efefef; */
+  background: linear-gradient(90deg, #fcff9e 0%, #c67700 100%);
   box-shadow: 0px 0px 18px gray;
   margin-top: 50px;
   padding: 15px 50px;
@@ -20,7 +24,7 @@
   justify-content: space-around;
   background-color: white;
   border-radius: 10px;
-  box-shadow: 0px 5px 5px gray;
+  box-shadow: 0px 5px 5px black;
 }
 
 .transaction-list{
@@ -32,11 +36,15 @@
   list-style: none;
   display: flex;
   justify-content: space-between;
-  box-shadow: 0 5px 10px grey;
+  box-shadow: 0 5px 10px black;
   padding: 10px 10px;
   background-color: white;
   margin-top: 10px;
   border-radius: 10px;
+}
+
+.transaction-form{
+  font-weight:500;
 }
 
 .transaction-form input{
@@ -45,11 +53,11 @@
   padding: 10px 0;
   border-radius: 7px;
   border-style: none;
-  box-shadow: 0 5px 10px grey;
+  box-shadow: 0 5px 10px black;
   text-indent: 0.1cm;
 }
 
 .input-button{
-  background-color: teal;
+  background-color:saddlebrown;
   color: white;
 }
